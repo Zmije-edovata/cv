@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html lang="cs" dir="ltr">
+<html lang="cs-cz" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>🖤 Katka's page</title>
+  <title>Funky web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@200;600&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-  <tr><td><img src="profil.png" alt="profilová fotka" width="100"></td><td> <h1>Kateřina Funková</h1>
-    <p><em> publikační pracovník v <strong>Zoo Praha</strong>.</em> </p>
-    <p>Jsem nadšený zoolog. Ráda maluji, piju dobrou kávu a hlavně se strašně ráda vzdělávám. Momentálně se učím programovat a tvořit webové stránky.</p>
-  </td></tr></table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="ilustrace mraků">
+    <h1>Vítejte u Katky,</h1>
+    <h2>publikační pracovnice v Zoo Praha</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="ilustrace mraků">
+    <img class="mountain" src="images/mountain.png" alt="ilustrace hor">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="profil.png" alt="profilová fotka", width="100px">
+      <h2>Ahoj</h2>
+      <p class="profil">Jsem publikační pracovnice v Zoo Praha. Mám ráda vše, co se týká zoologie a ekologie. Mou velkou vášní je také trénink a etologie psů. Kromě toho ráda maluji a fotím. V tuto chvíli se učím programovat a tvořit webové stránky, což mne překvapivě zcela nadchlo a pohltilo.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="vlajka" src="Flag_of_the_United_Kingdom.png" alt="britská vlajka" width="50px">
+        <h3>Anglický jazyk</h3>
+        <p>Angličtinu ovládám slovem i písmem na aktivní úrovni.</p>
+      </div>
+      <div class="skill-row">
+        <img class="colek" src="colek_velky.jpg" alt="ilustrace čolka velkého", width="100px">
+        <h3>Malování</h3>
+        <p class="malovani">Na střední škole jsem se rozhodovala, jestli nemám zkusit štěstí ve výtvarném úmění. Chdila jsem na kurzy AVU a připravovala jsem se na přijímací řízení zde. Nakonec ale vášeň pro zvířata zvítězila a malování mám dnes jen jako koníček.</p>
+      </div>
 
-  <hr>
-
-  <h3>Vzdělání</h3>
-  <ul>
-    <li> ČZU, <a href="https://www.fappz.czu.cz/cs">FAAPZ </a>, obor: Zájmové chovy zvířat, magisterské studium </li>
-    <li>ČZU, <a href="https://www.fappz.czu.cz/cs"> FAPPZ</a>, obor: Speciální chovy, bakalářské studium </li>
-    <li><a href="http://www.lauder.cz/cs/gymnazium.html">Gymnázium Or Chadaš</a> </li>
-  </ul>
-  <hr>
-  <h3>Pracovní zkušenosti</h3>
-  <table>
-    <tr><th> Období</th>
-    <th>Firma</th>
-  <th>Pozice</th></tr>
-    <tr><td>2019-současnost</td><td>Zoo Praha</td><td>Publikační pracovník</td></tr>
-    <tr><td>2017-2019</td><td>Richbarf</td><td>Vedoucí prodejny a eshopu s chovatelskými potřebami</td></tr>
-    <tr><td>2014-2016</td><td> Menzies Aviation</td><td>Gate assistent</td></tr>
-
-  </table>
-  <hr>
-  <table>
-    <tr><td>Malování</td> <td>⭐⭐⭐⭐</td><td>Fotografovaní</td><td>⭐⭐⭐</td></tr>
-    <tr><td>Trénink psů</td><td>⭐⭐⭐</td><td>programování</td><td>⭐</td></tr>
-  </table>
-  <hr>
-
-<a href="hobbies.html">Moje koníčky</a>
-<a href="contact.html">Kontakt</a>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Zaujalo Vás něco?</h3>
+      <p class="kontakt">Pokud si myslíte, že máme něco společného, nebo byste chtěli vědět víc, třeba o ekologii, napište mi!</p>
+      <a class="btn" href="mailto:katerina.funkova@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
-
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/kate%C5%99ina-funkova-808461201/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/zmije_jedovata">Twitter</a>
+    <a class="footer-link" href="https://zmije-edovata.github.io/cv/">Website</a>
+    <p id="copy">© 2020 Kateřina Funková.</p>
+  </div>
 </body>
 
 </html>
